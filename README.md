@@ -58,5 +58,5 @@ ansible-playbook -i hosts deploy-two-master.yml -uroot -k
 
 例如：只运行部署插件
 ```
-ansible-playbook -i hosts single-master-deploy.yml -uroot -k --tags addons
+ansible-playbook -i hosts deploy-one-master.yml -uroot -k --tags addons
 ```
